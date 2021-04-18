@@ -150,10 +150,10 @@ pipeline {
                         url: 'https://github.com/infraraja/jenkins-pipeline-kubernetes.git'
 
                 // Validate kubectl
-                sh 'kubectl cluster-info'
+                //sh 'kubectl cluster-info'
 
                 // Init helm client
-                sh "helm init"
+                //sh "helm init"
 
                 // Make sure parameters file exists
                 script {
