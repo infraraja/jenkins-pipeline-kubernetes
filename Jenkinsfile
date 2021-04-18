@@ -147,7 +147,7 @@ pipeline {
                 echo "Check out acme code"
                 git branch: "master",
                         credentialsId: 'Github',
-                        url: 'https://github.com/infrraja/jenkins-pipeline-kubernetes.git'
+                        url: 'https://github.com/infraraja/jenkins-pipeline-kubernetes.git'
 
                 // Validate kubectl
                 sh "kubectl cluster-info"
